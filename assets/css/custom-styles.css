@@ -1,0 +1,65 @@
+.navbar-brand .title-text {
+     top: 2px;
+     position: relative;
+ }
+
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+    color: #d9d872;
+}
+
+.collapse-brand .title-text {
+    color: #009975;
+}
+
+/*.section-hero .title-text {*/
+    /*color: #ffffff;*/
+    /*position: relative;*/
+    /*top: 8px;*/
+/*}*/
+
+.section-shaped .shape-style-1.shape-default
+{
+    background: linear-gradient(150deg, #009975 15%, #58b368 70%, #d9d872 94%);
+}
+
+.headroom--not-top {
+    background-color: #454d66;
+}
+
+.icon img{
+    height: 2.25rem;
+}
+
+.icon-shape-yellow
+{
+    color: #fba040;
+    background-color: rgba(254, 236, 189, 0.5);
+}
+
+.text-yellow {
+    color: #fba040 !important;
+}
+
+.badge-yellow {
+    color: #fba040;
+    background-color: rgba(254, 236, 189, 0.5);
+}
+
+.btn-yellow {
+    color: #fff;
+    border-color: #fba040;
+    background-color: #fba040;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+}
+
+.btn-yellow:hover {
+    color: #fff;
+    border-color: #fba040;
+    background-color: #fba040;
+}
+
+.btn-yellow:not(:disabled):not(.disabled):active, .btn-yellow:not(:disabled):not(.disabled).active, .show > .btn-yellow.dropdown-toggle {
+    color: #fff;
+    border-color: #fb7740;
+    background-color: #fb7740;
+}
