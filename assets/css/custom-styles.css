@@ -66,20 +66,22 @@
 
 
 .receive-updates-email {
-    font-size: .875rem;
-    font-weight: 400;
-    line-height: 1.5;
-    display: inline-block;
-    width: 50%;
-    height: calc(1.5em + 1.25rem + 2px);
-    padding: .625rem .75rem;
-    transition: all .2s cubic-bezier(.68, -.55, .265, 1.55);
-    color: #8898aa;
-    border: 1px solid #cad1d7;
-    border-radius: .25rem 0 0 .25rem;
-    background-color: #fff;
-    background-clip: padding-box;
-    box-shadow: none;
+    /*font-size: .875rem;*/
+    /*font-weight: 400;*/
+    /*line-height: 1.5;*/
+    /*display: inline-block;*/
+    /*width: 50%;*/
+    /*height: calc(1.5em + 1.25rem + 2px);*/
+    /*padding: .625rem .75rem;*/
+    /*transition: all .2s cubic-bezier(.68, -.55, .265, 1.55);*/
+    /*color: #8898aa;*/
+    /*border: 1px solid #cad1d7;*/
+    /*border-radius: .25rem 0 0 .25rem;*/
+    /*background-color: #fff;*/
+    /*background-clip: padding-box;*/
+    /*box-shadow: none;*/
+    width: 90%;
+    display: inline-flex;
 }
 
 .receive-updates-button {
@@ -97,8 +99,13 @@
     display: inline-block;
     padding: .625rem 1.25rem;
     border: 1px solid #cad1d7;
-    border-radius: 0 .25rem .25rem 0;
+    border-radius: .25rem;
     margin-left: -4px;
+}
+
+.input-group-end {
+    width: 5px;
+    background: #ffffff;
 }
 
 section.second p{
@@ -108,11 +115,12 @@ section.second p{
 .cellphone {
     position: absolute;
     top: 50%;
-    left: 50%;
+    right: 40px;
+    /*left: 50%;*/
     /*transform: translate(-50%, -50%);*/
     height: 500px;
     display: inline-block;
-    transform: perspective(500px) rotateY(10deg);
+    /*transform: perspective(500px) rotateY(10deg);*/
 }
 
 .cellphone img {
@@ -122,16 +130,28 @@ section.second p{
 
 .cellphone:nth-of-type(1) {
     top: -20px;
-    left: 60px;
+    left: 40px;
 }
 
 .cellphone:nth-of-type(2) {
-    top: 120px;
-    left: 230px;
+    /*top: 120px;*/
+    /*left: 230px;*/
+    top: 22%;
+    left: 50%;
     height: 450px;
 }
 
 .cellphones-container {
     height: 550px;
     position: relative;
+}
+
+.accordion .card button {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    text-transform: unset;
+}
+.accordion .card button p {
+    font-weight: 600;
 }

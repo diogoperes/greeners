@@ -64,19 +64,10 @@
           </div>
           <ul class="navbar-nav ml-lg-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Discover <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Profile</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link" href="#" id="navbar-primary_dropdown_1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Settings</a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbar-primary_dropdown_1">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
+              <a class="nav-link" href="#">Contact</a>
             </li>
           </ul>
         </div>
@@ -107,32 +98,52 @@
               <!--<p class="lead  text-white">Enhance your house sustainability and reduce energy costs by automating your house.</p>-->
               <h1 class="display-3  text-white">A complete set of modules<span>to automate your house</span></h1>
               <p class="lead  text-white">Market research page for an IoT solution to help enhance your building's sustainability and reduce energy costs by automating everyday tasks.</p>
-              <div class="btn-wrapper">
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="btn-wrapper mb-4">
                 <h5 class="text-white">Receive updates</h5>
                 <form method="POST" action="https://formspree.io/peresonweb@gmail.com">
-                  <input type="email" name="email" class="receive-updates-email" id="exampleFormControlInput1" placeholder="email" required>
-                  <button type="submit" class="receive-updates-button">Send</button>
+                  <!--<input type="email" name="email" class="receive-updates-email" id="exampleFormControlInput1" placeholder="email" required>-->
+                  <div class="input-group input-group-alternative receive-updates-email">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="ni ni-email-83"></i></span>
+                    </div>
+                    <input class="form-control" name="email" placeholder="Email address" type="email">
+                    <div class="input-group-end"></div>
+                    <button type="submit" class="receive-updates-button">Send</button>
+                  </div>
+
                   <!--<div class="row">-->
-                    <!--<div class="col-md-8">-->
-                      <!--<div class="form-group">-->
-                        <!---->
-                      <!--</div>-->
-                    <!--</div>-->
-                    <!--<div class="col-md-4">-->
-                      <!---->
-                      <!--&lt;!&ndash;<input type="submit" name="submit" value="Submit">&ndash;&gt;-->
-                    <!--</div>-->
+                  <!--<div class="col-md-8">-->
+                  <!--<div class="form-group">-->
+                  <!---->
+                  <!--</div>-->
+                  <!--</div>-->
+                  <!--<div class="col-md-4">-->
+                  <!---->
+                  <!--&lt;!&ndash;<input type="submit" name="submit" value="Submit">&ndash;&gt;-->
+                  <!--</div>-->
                   <!--</div>-->
                 </form>
                 <!--<a href="mailto:peresinweb@gmail.com" class="btn btn-white btn-icon mb-3 mb-sm-0">-->
-                  <!--<span class="btn-inner&#45;&#45;icon"><i class="fa fa-envelope"></i></span>-->
-                  <!--<span class="btn-inner&#45;&#45;text">Email Us</span>-->
+                <!--<span class="btn-inner&#45;&#45;icon"><i class="fa fa-envelope"></i></span>-->
+                <!--<span class="btn-inner&#45;&#45;text">Email Us</span>-->
                 <!--</a>-->
                 <!--<a href="https://docs.google.com/forms/d/e/1FAIpQLSekA9Z-cJ2Fx3eWHko-PAko_W2tfyZKUklInKzYD3d9a_mMaA/viewform?usp=sf_link" class="btn btn-white btn-icon mb-3 mb-sm-0">-->
-                  <!--<span class="btn-inner&#45;&#45;icon"><i class="fa fa-clipboard-list"></i></span>-->
-                  <!--<span class="btn-inner&#45;&#45;text">Help us</span>-->
+                <!--<span class="btn-inner&#45;&#45;icon"><i class="fa fa-clipboard-list"></i></span>-->
+                <!--<span class="btn-inner&#45;&#45;text">Help us</span>-->
                 <!--</a>-->
               </div>
+            </div>
+            <div class="col-lg-6">
+              <h5 class="text-white">Help us know your opinion</h5>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSekA9Z-cJ2Fx3eWHko-PAko_W2tfyZKUklInKzYD3d9a_mMaA/viewform?usp=sf_link" class="btn btn-white btn-icon mb-3 mb-sm-0">
+                <span class="btn-inner--icon"><i class="fa fa-clipboard-list"></i></span>
+                <span class="btn-inner--text">Quick form</span>
+              </a>
             </div>
           </div>
         </div>
@@ -181,7 +192,7 @@
                       <i class="ni ni-bulb-61"></i>
                     </div>
                     <h6 class="text-yellow text-uppercase">Smart Bulbs</h6>
-                    <p class="description mt-3">Adjust the bulbs brightness according to the surrounding luminosity.</p>
+                    <p class="description mt-3">Adjust the bulbs' brightness according to the surrounding luminosity.</p>
                     <!--<br/>-->
                     <div>
                       <span class="badge badge-pill badge-yellow">bulb</span>
@@ -312,7 +323,7 @@
           </div>
         </div>
         <br/>
-        <p style="margin-bottom: 0">All of these sensors will be connected to a central hub that will learn your habits and give you tips to automate them, increasing their efficiency.</p>
+        <p style="margin-bottom: 0">All of these sensors will be connected to a central hub that uses artificial intelligence and the information provided by several sensors to optimize the gadgets’ efficiency and learn the user’s habits.</p>
       </div>
     </section>
 
@@ -321,10 +332,10 @@
         <div class="row row-grid align-items-center">
           <div class="col-md-6 cellphones-container floating">
             <div class="cellphone">
-              <img src="./assets/img/brand/greeners_statistics.png" class="img-fluid">
+              <img src="./assets/img/brand/greeners_statistics.png" class="img-fluid transform-perspective-left">
             </div>
             <div class="cellphone">
-              <img src="./assets/img/brand/greeners_deviceList.png" class="img-fluid">
+              <img src="./assets/img/brand/greeners_deviceList.png" class="img-fluid transform-perspective-left">
             </div>
           </div>
           <div class="col-md-6">
@@ -332,11 +343,119 @@
               <div class="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
                 <i class="fas fa-mobile-alt"></i>
               </div>
-              <h3>Our customers</h3>
-              <p class="lead">Don't let your uses guess by attaching tooltips and popoves to any element. Just make sure you enable them first via JavaScript.</p>
-              <p>The kit comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go.</p>
-              <p>The kit comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go.</p>
-              <a href="#" class="font-weight-bold text-success mt-5">A beautiful UI Kit for impactful websites</a>
+              <h3>Mobile App</h3>
+              <p class="lead">Check the statistics for each device individually, energy consumption, and sensors data over time.</p>
+              <p>The mobile application will allow you to control every device connected to the central hub and configure it to adapt to your habits and turn it on and off from anywhere.</p>
+              <p>Check your cameras and automate your life with an intuitive mobile app.</p>
+              <p class="font-weight-bold text-success mt-4">An easy way to control your devices</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-lg bg-gradient-default">
+      <div class="container pt-lg pb-300">
+        <div class="row text-center justify-content-center">
+          <div class="col-lg-10">
+            <h2 class="display-3 text-white">FAQ</h2>
+            <p class="lead text-white">Check our frequently asked questions and get to know more about our vision and our product.</p>
+          </div>
+        </div>
+
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <div class="card-header" id="headingOne">
+                <p class="mb-0">
+                    When will this product be available?
+                </p>
+              </div>
+            </button>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                This solution is still on a market research phase and there is nothing developed yet.
+                We are still evaluating the product's potential and is yet unknown the time that will took to go from the concept idea to the first prototype.
+                <br/>
+                <a href="#" class="font-weight-bold text-default mt-5">Click here and insert your email to get updates on the product development.</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+              <div class="card-header" id="headingTwo">
+                <p class="mb-0">
+                  Where will the product be sold?
+                </p>
+              </div>
+            </button>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                On an initial phase the product will be sold through online sales.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+              <div class="card-header" id="headingThree">
+                <p class="mb-0">
+                  What are the advantages of greeners compared with other IoT solutions?
+                </p>
+              </div>
+            </button>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                Greeners distinguishes itself from the other IoT solutions because it's focused on maximizing each device efficiency and decrease energy costs.
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+      <!-- SVG separator -->
+      <div class="separator separator-bottom separator-skew zindex-100">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+    </section>
+
+    <section class="section section-lg pt-lg-0 section-contact-us">
+      <div class="container">
+        <div class="row justify-content-center mt--300">
+          <div class="col-lg-8">
+            <div class="card bg-gradient-secondary shadow">
+              <div class="card-body p-lg-5">
+                <h4 class="mb-1">Still has questions?</h4>
+                <p class="mt-0">Just send us a message and we will answer as quick as possible.</p>
+                <form method="POST" action="https://formspree.io/peresonweb@gmail.com">
+                  <div class="form-group mt-5">
+                    <div class="input-group input-group-alternative">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="ni ni-user-run"></i></span>
+                      </div>
+                      <input class="form-control" name="name" placeholder="Your name" type="text">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="input-group input-group-alternative">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="ni ni-email-83"></i></span>
+                      </div>
+                      <input class="form-control" name="email" placeholder="Email address" type="email">
+                    </div>
+                  </div>
+                  <div class="form-group mb-4">
+                    <textarea class="form-control form-control-alternative" name="message" rows="4" cols="80"
+                              placeholder="Type a message..."></textarea>
+                  </div>
+                  <div>
+                    <button type="submit" class="btn btn-default btn-round btn-block btn-lg">Send Message</button>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
         </div>
@@ -413,21 +532,60 @@
     <!--END OF MODALS-->
 
   </main>
-  <footer class="footer has-cards">
 
-
+  <footer class="footer">
+    <div class="container">
+      <div class="row row-grid align-items-center my-md">
+        <div class="col-lg-6">
+          <h3 class="text-success font-weight-light mb-2">Thank you for supporting us!</h3>
+          <!--<h4 class="mb-0 font-weight-light">Let's get in touch on any of these platforms.</h4>-->
+        </div>
+      </div>
+      <hr>
+      <div class="row align-items-center justify-content-md-between">
+        <div class="col-md-6">
+          <div class="copyright">
+            © 2019 <a href="http://diogoperes.github.io" target="_blank">Diogo Peres</a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <ul class="nav nav-footer justify-content-end">
+            <li class="nav-item">
+              <a href="https://www.creative-tim.com/presentation" class="nav-link" target="_blank">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://www.creative-tim.com/presentation" class="nav-link" target="_blank">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </footer>
+
   <!-- Core -->
   <script src="./assets/vendor/jquery/jquery.min.js"></script>
   <script src="./assets/vendor/popper/popper.min.js"></script>
   <script src="./assets/vendor/bootstrap/bootstrap.min.js"></script>
   <script src="./assets/vendor/headroom/headroom.min.js"></script>
   <!-- Optional JS -->
-  <script src="./assets/vendor/onscreen/onscreen.min.js"></script>
-  <script src="./assets/vendor/nouislider/js/nouislider.min.js"></script>
-  <script src="./assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+  <!--<script src="./assets/vendor/onscreen/onscreen.min.js"></script>-->
+  <!--<script src="./assets/vendor/nouislider/js/nouislider.min.js"></script>-->
+  <!--<script src="./assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>-->
   <!-- Argon JS -->
   <script src="./assets/js/argon.js?v=1.1.0"></script>
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145906552-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-145906552-1');
+  </script>
+
+
 </body>
 
 </html>
