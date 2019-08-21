@@ -1,0 +1,13 @@
+{
+  "name": "diogoperes/greeners",
+  "description": "Market research page for an IoT solution.",
+  "type": "project",
+  "license": "GNU GPLv3",
+  "authors": [
+    {
+      "name": "Diogo Peres",
+      "email": "peresonweb@gmail.com"
+    }
+  ],
+  "require": {}
+}

@@ -1,0 +1,24 @@
+{
+  "name": "greeners",
+  "homepage": "https://diogoperes.github.io/greeners/",
+  "authors": [
+      "Diogo Peres"
+  ],
+  "description": "Market research page for an IoT solution.",
+  "main": "gulpfile.js",
+  "keywords": [
+      "diogo peres",
+      "iot",
+      "greeners",
+      "climate change",
+      "energy",
+      "efficiency",
+      "water"
+  ],
+  "license": "GNU GPLv3",
+  "ignore": [
+      "**/.*",
+      "node_modules",
+      "bower_components"
+  ]
+}
