@@ -1,3 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  padding: .5rem 1rem;
+}
+
 .navbar-brand .title-text {
      top: 2px;
      position: relative;
